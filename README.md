@@ -22,5 +22,5 @@ git clone https://github.com/uGeek/docker-wikitten.git
 
 
 ```
-docker run -d --name=wikitten -v $HOME/docker/wikitten:/var/www -p 9000:9000 ugeek/wikitten:amd64
+docker run -d --name=wikitten -v $HOME/docker/wikitten/docker-wikitten:/var/www -p 9000:9000 ugeek/wikitten:amd64
 ```
