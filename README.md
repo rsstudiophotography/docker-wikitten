@@ -6,3 +6,11 @@ Wikitten is a small, fast, PHP wiki, and the perfect place to store your notes, 
 Check out the **[project website](http://wikitten.vizuina.com)** for more details and features.
 
 [![Wikitten](http://wikitten.vizuina.com/screenshot.png)](http://wikitten.vizuina.com)
+
+
+
+##
+
+```
+docker run -d --name=wikitten -v $HOME/docker/wikitten:/var/www -p 9000:9000 ugeek/wikitten:amd64
+```
