@@ -12,5 +12,15 @@ Check out the **[project website](http://wikitten.vizuina.com)** for more detail
 ##
 
 ```
+cd $HOME/docker/wikitten
+```
+
+
+```
+git clone https://github.com/uGeek/docker-wikitten.git
+```
+
+
+```
 docker run -d --name=wikitten -v $HOME/docker/wikitten:/var/www -p 9000:9000 ugeek/wikitten:amd64
 ```
